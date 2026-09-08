@@ -4,4 +4,6 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="Cplusplus start/Cplusplus start.vcxproj" Id="e04373db-9489-4eb4-a2e6-f1a375ee0001" />
+  <Project Path="Homework_08_sept.cpp/Homework_08_sept.cpp.vcxproj" Id="47517f6c-9525-4f43-ba6a-70cf4a37bcc7" />
+  <Project Path="teat1/teat1.vcxproj" Id="303afbf1-e98a-43f9-bd23-555396f150a8" />
 </Solution>
