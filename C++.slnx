@@ -3,6 +3,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="01_OOP_practice_homework/01_OOP_practice_homework.vcxproj" Id="d306e3d6-230c-45e9-87da-3239bf8b3ef6" />
   <Project Path="07_practice/07_practice.vcxproj" Id="fa472bc8-4588-4e06-89ac-9ee813ad14a5" />
   <Project Path="10_practice_task2/10_practice_task2.vcxproj" Id="831ca004-9038-43ef-aade-73054184b760" />
   <Project Path="Cplusplus start/Cplusplus start.vcxproj" Id="e04373db-9489-4eb4-a2e6-f1a375ee0001" />
