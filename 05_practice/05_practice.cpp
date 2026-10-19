@@ -92,5 +92,4 @@ int main() {
     lib.printByPublisher(publisherSecker);
     lib.printAfterYear(1950);
 
-    return 0;
 }
