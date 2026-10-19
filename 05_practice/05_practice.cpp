@@ -11,8 +11,20 @@ private:
     int pages;
 
 public:
-    explicit Book(const char* auth = "", const char* tit = "", const char* pub = "", int y = 0, int p = 0)
-        : author(auth), title(tit), publisher(pub), year(y), pages(p) {
+    Book()
+        : author("Unknown"), title("Untitled"), publisher("Unknown"), year(0), pages(0) {
+    }
+
+    explicit Book(const char* author)
+        : author(author), title("Untitled"), publisher("Unknown"), year(0), pages(0) {
+    }
+
+    Book(const char* author, const char* title, const char* publisher, int year, int pages)
+        : author(author), title(title), publisher(publisher), year(year), pages(pages) {
+    }
+
+    Book(const Book& other)
+        : author(other.author), title(other.title), publisher(other.publisher), year(other.year), pages(other.pages) {
     }
 
     void display() const {
@@ -37,9 +49,23 @@ private:
     Book books[5];
 
 public:
+    Library() {
+        books[0] = Book();
+        books[1] = Book("George Orwell");
+        books[2] = Book("Harper Lee", "To Kill a Mockingbird", "J. B. Lippincott & Co.", 1960, 281);
+        books[3] = Book("F. Scott Fitzgerald", "The Great Gatsby", "Charles Scribner's Sons", 1925, 208);
+        books[4] = Book("Ray Bradbury", "Fahrenheit 451", "Ballantine Books", 1953, 256);
+    }
+
     explicit Library(const Book b[5]) {
         for (int i = 0; i < 5; ++i) {
             books[i] = b[i];
+        }
+    }
+
+    Library(const Library& other) {
+        for (int i = 0; i < 5; ++i) {
+            books[i] = other.books[i];
         }
     }
 
