@@ -9,6 +9,8 @@
   <Project Path="04_practice/04_practice.vcxproj" Id="374c5d1e-4ca7-4de4-9f87-23bde4a80ef8" />
   <Project Path="05_ConstExplisit/05_ConstExplisit.vcxproj" Id="51afcc0a-159a-4930-a4d8-dbfa869e607e" />
   <Project Path="05_practice/05_practice.vcxproj" Id="10e804eb-025f-4597-8c8c-509073fc6bd4" />
+  <Project Path="06_Overload_Operators/06_Overload_Operators.vcxproj" Id="2a9e6b8d-1e94-4a0c-bb62-562ce878b53b" />
+  <Project Path="06_practice/06_practice.vcxproj" Id="1024da23-a584-48b2-8471-3bf17bd203bc" />
   <Project Path="07_practice/07_practice.vcxproj" Id="fa472bc8-4588-4e06-89ac-9ee813ad14a5" />
   <Project Path="10_practice_task2/10_practice_task2.vcxproj" Id="831ca004-9038-43ef-aade-73054184b760" />
   <Project Path="Cplusplus start/Cplusplus start.vcxproj" Id="e04373db-9489-4eb4-a2e6-f1a375ee0001" />
