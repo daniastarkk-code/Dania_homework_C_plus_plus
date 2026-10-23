@@ -12,6 +12,7 @@
   <Project Path="06_Overload_Operators/06_Overload_Operators.vcxproj" Id="2a9e6b8d-1e94-4a0c-bb62-562ce878b53b" />
   <Project Path="06_practice/06_practice.vcxproj" Id="1024da23-a584-48b2-8471-3bf17bd203bc" />
   <Project Path="07_practice/07_practice.vcxproj" Id="fa472bc8-4588-4e06-89ac-9ee813ad14a5" />
+  <Project Path="07_practice_OOP/07_practice_OOP.vcxproj" Id="5ac629f0-a4eb-4cac-b548-96bd0451c54c" />
   <Project Path="10_practice_task2/10_practice_task2.vcxproj" Id="831ca004-9038-43ef-aade-73054184b760" />
   <Project Path="Cplusplus start/Cplusplus start.vcxproj" Id="e04373db-9489-4eb4-a2e6-f1a375ee0001" />
   <Project Path="Homework_08_sept.cpp/Homework_08_sept.cpp.vcxproj" Id="47517f6c-9525-4f43-ba6a-70cf4a37bcc7" />
